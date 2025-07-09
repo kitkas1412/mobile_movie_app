@@ -68,7 +68,7 @@ export default function Index() {
 
                           numColumns={3}
                           columnWrapperStyle={{
-                              justifyContent: "flex-start",
+                              justifyContent: "center",
                               gap: 10,
                               paddingRight: 5,
                               marginBottom: 10
