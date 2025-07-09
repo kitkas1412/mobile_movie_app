@@ -43,6 +43,7 @@ const Search = () => {
     }, [searchQuery]);
 
     useEffect(() => {
+        // @ts-ignore
         if(movies?.length > 0 && movies?.[0]) {
             updateSearchCount(searchQuery, movies[0]);
         }
